@@ -152,6 +152,7 @@ function unshift(array, newItem) {
 function addToShoppingList(shoppingList, itemType, quantity) {
    // adds itemType and quantity to the shopping list
    shoppingList.push([itemType, quantity]);
+   console.log(shoppingList);
    return shoppingList;
 }
 
