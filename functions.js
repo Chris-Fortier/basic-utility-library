@@ -123,6 +123,7 @@ function getNthToLastLetterOfString(string, n) {
 function push(array, newItem) {
    // var array = [1, 2, 3];
    array.push(newItem);
+   console.log(array);
    return array;
 }
 
